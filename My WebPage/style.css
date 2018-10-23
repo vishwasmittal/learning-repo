@@ -1,0 +1,90 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+}
+#nav-bar{
+	position:fixed;
+	width:100%;
+	font-weight:bold;
+	font-size:22px;
+	text-align:right;
+	background: rgba(0, 0, 0, 0.7);
+}
+#nav-bar a,#nav-bar a:visited {
+	color:orange;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#nav-bar ul{
+		list-style-type: none;
+	}
+#nav-bar li {
+	display:inline-block;
+	padding:16px;
+}
+body{
+	font-family:Arial, Helvetica,sans-serif;
+}
+#nav-bar a:hover,#nav-bar a:active{
+	color:white;
+}
+#header{
+	background : url("cover1.jpg");
+	background-size: cover;
+	height: 500px;
+	
+	padding-top: 300px;
+	text-align:center;
+	background-attachment:fixed;
+}
+#header h1{
+	font-size:40px;
+}
+#header h3{
+	margin-top:30px;
+}
+.about-me{
+	font-size:40px;
+}
+#about img{
+	border-radius:40%;
+}
+#about p{
+	line-height:30px;
+	font-size:15px;
+}
+#about td{
+	padding:30px;
+}
+#about table{
+	margin:20px;
+}
+.projects{
+	padding:20px;
+	color:white;
+	text-align:center;
+	font-size:40px;
+}
+#projects{
+	padding-bottom:10px;
+	background : url("cover2.jpg");
+	background-size:cover;
+}
+
+#projects table{
+	margin:30px;
+}
+#projects td{
+	background:white;
+	border:5px solid transparent;
+	font-size:20px;
+	padding:25px;
+}
+#contacts{
+	background:rgba(0,0,0,0.7);
+	color:white;
+	text-align:center;
+	font-size:25px;
+	padding:20px;
+}
